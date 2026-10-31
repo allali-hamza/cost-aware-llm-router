@@ -1,6 +1,6 @@
-# Adaptive LLM Router
+# Cost-Aware LLM Router
 
-Adaptive LLM Router is a small prototype for choosing an appropriate language model for a prompt. It learns useful request attributes from the prompt, then uses a capability table to identify the lowest-cost model that meets the requested quality level.
+Cost-Aware LLM Router is a small prototype for choosing an appropriate language model for a prompt. It learns useful request attributes from the prompt, then uses a capability table to identify the lowest-cost model that meets the requested quality level.
 
 ## The objective: lower cost without compromising the requested quality
 

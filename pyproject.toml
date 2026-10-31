@@ -1,5 +1,5 @@
 [project]
-name = "adaptive-llm-router"
+name = "cost-aware-llm-router"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.scripts]
-adaptive-llm-router = "adaptive_llm_router:main"
+cost-aware-llm-router = "adaptive_llm_router:main"
 
 [build-system]
 requires = ["uv_build>=0.13.4,<0.14.0"]

@@ -200,6 +200,14 @@ To regenerate the README charts after updating the data or evaluation results:
 uv run python -m adaptive_llm_router.evaluation.generate_readme_charts
 ```
 
+## Future improvements
+
+- Connect the FastAPI endpoint to the prompt predictor and the routing policy.
+- Replace the seed capability table with regularly updated model prices, quality measurements, and latency benchmarks.
+- Add routing policies that prioritize latency, quality, or a balanced trade-off alongside cost.
+- Evaluate routing decisions with real model outputs and user feedback.
+- Expand the labelled dataset with more prompts and more representative routing requirements.
+
 ## Tests
 
 ```bash
